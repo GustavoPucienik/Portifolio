@@ -1,0 +1,147 @@
+/*
+    meu css
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3vw;
+}
+
+.title{
+    font-size: 2em;
+    cursor: default;
+}
+.login{
+    text-align: center;
+    position: absolute;
+    top: 32%;
+    left: 36%;
+    background: rgb(255,115,0);
+    background: linear-gradient(90deg, rgba(247,75,119,1) 0%, rgba(252,98,60,1) 35%, rgba(255,115,0,1) 100%);
+    padding: 30px;
+    border-radius: 5em;
+
+}
+
+button{
+    font-size: 1em;
+    padding: 1.2em;
+    outline: 0;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 15px;
+    transition: .7s;
+    border: none;
+}
+
+button:hover{
+    background: rgb(0, 0, 0);
+}
+
+.bi{
+    display: block;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.bi-moon{
+    display: none;
+}
+
+input{
+    margin: 10px;
+    border: 0;
+    border-radius: 15px;
+    padding: 15px;
+    outline: none;
+}
+
+.for{
+    display: flex;
+    flex-direction: column;
+}
+
+.for :nth-child(2){
+    margin-bottom: 2em;
+}
+
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+    list-style: none;
+    margin-right: 5%;
+    position: relative;
+}
+.menu ul li{
+    padding: 15px;
+    margin-top: 2vw;
+    border-radius: 1em;
+    box-shadow: 1px 1px 5px .5px #000;
+    transition: .7s;
+}
+
+.menu ul li:hover{
+    background: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+input[type ="checkbox"]{
+    display: none;
+}
+
+label{
+    padding: 5px;
+    margin-top: 1em;
+}
+
+.menu a{
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    
+} 
+
+.menu ul li:hover{
+    color: #fff;
+}
+
+
+/*dark   */
+.dark{
+    background: linear-gradient(90deg,#11171a 30%,#263238 70%, #4b636e 100%);
+    color: #fff;
+}
+
+.dark .bi-sun{
+    display: none;
+}
+
+.dark .bi-moon{
+    display: block;
+}
+
+.dark ul li{
+    color: #fff;
+}
+
+.dark .login{
+    background: #263238;
+}
+
+.dark .menu ul li:hover{
+    background: #40545e;
+}
+
+.dark button:hover{
+    background: #40545e;
+}

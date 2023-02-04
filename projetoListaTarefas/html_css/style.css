@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+	outline: none;
+}
+
+body {
+	background: #686464;
+	margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lista-tarefa {
+	width: 41vw;
+    background-color: #2c2828;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    height: auto;
+    padding-bottom: 1em;
+}
+.erro{
+    font-size: 1.5em;
+    font-weight: 700;
+    display: none;
+	text-align: center;
+    background: rgb(255, 0, 8);
+    color: rgb(255, 255, 255);
+    padding: 3.5%;
+    width: 33%;
+    border-radius: 1em;
+    margin: 1em;    
+    }
+
+.cabecario-tarefa{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3f3a3a;
+    border-radius: 1em 1em 0 0;
+    padding: 2vw 5%;
+    margin-bottom: 1em;
+    width: 90%;
+    height: 10vw;
+}
+
+.entrada-tarefa{
+    width: 60%;
+    height: 50%;
+    border-style: none;
+    background-color: rgb(32, 32, 32);
+    border-radius: 16px;
+    padding: .9%;
+    font-size: 1.5em;
+    color: aliceblue;
+}
+
+.adicionar-tarefa-btn{
+    border-radius: 1em;
+    margin-left: 7%;
+    font-size: 1vw;
+    font-weight: bold;
+    padding: 1em;
+    font-weight: 700;
+}
+.adicionar-tarefa-btn:hover{
+    transition: .5s;
+    color: azure;
+    background: black;
+
+}
+
+.corpo-tarefas{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.tarefas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 98%;
+    border-radius: 0em 0em .9em .9em;
+}
+button{
+    cursor: pointer;
+    border: none;
+}
+i{
+    color: black;
+    font-size: 1.5em;
+    padding: 5px;
+    background-color: #b3aaaa;
+    border: none;
+}
+
+li{
+    width: 35vw;
+    background-color: rgb(221, 217, 213);
+    border-style: none;
+    border-radius: .4em;
+    margin: 2%;
+    padding: 1.5vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+input[type=checkbox]{  
+    width: 4vw;
+    cursor: pointer;
+}

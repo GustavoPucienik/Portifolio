@@ -89,6 +89,7 @@ li a:hover{
     width: 13.5vw;
     height: 12vw;
     padding: 1.5vw;
+    border-radius: 1em;
 }
 .habilidades img{
     height: 4em;
@@ -108,7 +109,8 @@ footer{
 }
 
 .projetos a{
-    background: #1b98e0;
+    background: #1aa3b3;
+    font-weight: bolder;
     height: 6.8vw;
     width: 11vw;
     text-decoration: none;
@@ -116,8 +118,15 @@ footer{
     padding: .8vw;
     border-radius: 1em;
 }
+.projetos a:hover{
+    transition: .3s;
+    background: #01bea5;
+}
+
 .projetos a img{
-    width: 11vw;
-    height: 90%;
+    width: 12.6vw;
+    height: 92%;
+    margin-left: -0.8vw;
+    border-radius: 0 0 .9em .9em;
 
 }

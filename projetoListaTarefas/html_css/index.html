@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+</head>
+<body>
+        <div id="erro" class="erro">Por favor coloque uma tarefa!!!</div>
+    <div class="lista-tarefa">
+
+        <div id="cabecario-tarefa" class="cabecario-tarefa">
+            <input type="text" id="entrada-tarefa" class="entrada-tarefa" placeholder="Nova tarefa" maxlength="30">
+            <button id="adicionar-tarefa-btn" class="adicionar-tarefa-btn">Adicionar</button>
+        </div>
+
+        <div id="corpo-tarefas" class="corpo-tarefas">
+            <ul id="tarefas">
+            </ul>
+        </div>
+    </div>
+</body>
+<script defer src="../script.js"></script>
+</html>
