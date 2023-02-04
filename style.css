@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.menu{
+    background: #1b98e0;
+    display: flex;
+    justify-content: space-around;
+    margin: .01vw 0;
+    padding: 2vw;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    display: flex;
+}
+li{
+    font-weight: bolder;
+    margin: 0 1vw;
+    list-style: none;
+}
+li a{
+    background: #247ba0;
+    color: black;
+    text-decoration: none;
+    padding: 1vw;
+    border-radius: 5px;
+}
+li a:hover{
+    transition: .7s;
+    background-color: rgb(1, 212, 212);
+}
+.conteudo{
+    background: #457add;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.apre{
+    display: flex;
+    background: #1aa3b3;
+    width: 55vw;
+    height: 18vw;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vw;
+    padding: 2vw;
+}
+.apre-apre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.img-icon{
+    max-width: 4vw;
+    border-radius: 1em;
+}
+.papre{
+    margin-top: 1vw;
+    width: 12.5vw;
+
+}
+.linkedin{
+    background: #ececec;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    padding: .2vw;
+    color: rgb(5, 5, 131);
+    font-weight: bolder;
+}
+.linkedin:hover{
+    transition: .5s;
+    background: #1b98e0;
+}
+.habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    background-color: #006494;
+    width: 13.5vw;
+    height: 12vw;
+    padding: 1.5vw;
+}
+.habilidades img{
+    height: 4em;
+}
+
+footer{
+    height: 6vw;
+    background: #247ba0;
+}
+.projetos{
+    background: #006494;
+    width: 59vw;
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.projetos a{
+    background: #1b98e0;
+    height: 6.8vw;
+    width: 11vw;
+    text-decoration: none;
+    color: black;
+    padding: .8vw;
+    border-radius: 1em;
+}
+.projetos a img{
+    width: 11vw;
+    height: 90%;
+
+}
