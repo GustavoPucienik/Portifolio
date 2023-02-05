@@ -28,13 +28,14 @@ li a{
     text-decoration: none;
     padding: 1vw;
     border-radius: 5px;
+    transition: .9s;
 }
 li a:hover{
     transition: .7s;
     background-color: rgb(1, 212, 212);
 }
 .conteudo{
-    background: #457add;
+    background: #bdc0c7;
     width: 100%;
     height: 600px;
     display: flex;
@@ -52,32 +53,35 @@ li a:hover{
     align-items: center;
 }
 .apre-apre{
+    height: 250px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 .img-icon{
-    max-width: 4vw;
+    max-width: 5vw;
     border-radius: 1em;
 }
 .papre{
+    font-weight: bolder;
     margin-top: 1vw;
-    width: 12.5vw;
+    width: 120px;
 
 }
 .linkedin{
-    background: #ececec;
+    background: #1b98e0;
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
-    padding: .2vw;
+    padding: 15px;
     color: rgb(5, 5, 131);
     font-weight: bolder;
+    transition: .5s;
 }
 .linkedin:hover{
-    transition: .5s;
-    background: #1b98e0;
+    transition: .7s;
+    background: #ececec;
 }
 .habilidades{
     display: flex;
@@ -113,9 +117,10 @@ li a:hover{
     border-radius: 1em;
     text-align: center;
     padding: 15px;
+    transition: .7s;
 }
 .projetos a:hover{
-    transition: .3s;
+    transition: .7s;
     background: #01bea5;
 }
 
@@ -123,6 +128,7 @@ li a:hover{
     width: 140px;
     height: 85%;
     border-radius: 0.9em 0.9em .9em .9em;
+    transition: .7s;
 
 }
 .projetos a img:hover{
@@ -134,7 +140,126 @@ li a:hover{
 }
 
 footer{
-    height: 6vw;
+    height: 100px;
     background: #247ba0;
 }
 
+/* inicio responsividade*/
+
+@media screen and (max-width:1020px){
+
+.menu{
+    max-width:1020px;
+}
+
+li a{
+    padding: 10px;
+}
+
+.conteudo{
+    width: 100%;
+    height: 600px;
+
+}
+.apre{
+    width: 700px;
+    height: 350px;
+
+}
+
+.habilidades{
+    width: 300px;
+}
+.habilidades img{
+    height: 3em;
+}
+
+.projetos{
+    width: 700px;
+}
+
+.projetos a{
+    width: 15%;
+    height: 100px;
+}
+.projetos a img{
+    height: 10vw;
+    width:100%;
+    transition: .7s;
+}
+.projetos a img:hover{
+    height: 97%;
+    width: 129%;
+    transition: .7s;
+}
+#aaaa{
+    max-height: 79%;
+}
+
+
+
+}
+
+
+
+
+@media screen and (max-width:720px) {
+    .menu{
+        justify-content: space-around;
+        height: 7vw;
+        min-width: 400px;
+        width: 93.5vw;
+        max-width: 719px;
+    }
+    ul{
+    }
+    li {
+        margin: 0 10px;
+        margin-top: 10px;
+    }
+    .conteudo{
+        min-width: 400px;
+        width: 97.5vw;
+        max-width: 720px;
+        height: 100%;
+    }
+
+    .apre{
+        min-height: 100px;
+        width: 100%;
+        padding: 1em 0;
+        flex-direction: column;
+        justify-content:space-between;
+    }
+    .img-icon{
+        max-width: 10vw;
+    }
+    .papre{
+        width: 200px;
+    }
+    .habilidades{
+        margin: .3em 0;
+        justify-content: space-around;
+        margin-left: 15px;
+    }
+    .habilidades img{
+        height: 30px;
+    }
+
+    .projetos{
+        flex-direction: column;
+        margin-top: 0px;
+        height: 500px;
+        width:89vw;
+        padding: 1.5em;
+    }
+    .projetos a{
+        margin: 10px;
+        height: 100px;
+    }
+    footer{
+        margin-top: 0;
+    }
+
+
+}
