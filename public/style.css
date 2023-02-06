@@ -183,7 +183,7 @@ li a{
     height: 100px;
 }
 .projetos a img{
-    height: 10vw;
+    height: 90%;
     width:100%;
     transition: .7s;
 }
@@ -192,7 +192,7 @@ li a{
     width: 129%;
     transition: .7s;
 }
-#aaaa{
+#pro1{
     max-height: 79%;
 }
 
@@ -210,8 +210,6 @@ li a{
         min-width: 400px;
         width: 93.5vw;
         max-width: 719px;
-    }
-    ul{
     }
     li {
         margin: 0 10px;
@@ -247,15 +245,29 @@ li a{
     }
 
     .projetos{
-        flex-direction: column;
-        margin-top: 0px;
+        margin: 0px 0 0;
         height: 500px;
-        width:89vw;
-        padding: 1.5em;
+        width:80vw;
+        display: grid;
+        grid-template-columns: 450px 450px;
     }
     .projetos a{
-        margin: 10px;
-        height: 100px;
+        margin-left: 300px;
+    }
+    .projetos a img{
+        height: 75px;
+    }
+    .projetos a img:hover{
+        width: 97px;
+    }
+    #pro2:hover{
+        height: 79px;
+    }
+    #proj1,#proj3{
+        margin-right: 0;
+    }
+    #proj2,#proj4{
+        margin-left: 60px;
     }
     footer{
         margin-top: 0;
