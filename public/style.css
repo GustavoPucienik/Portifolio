@@ -58,7 +58,7 @@ li a:hover{
     height: 250px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 .img-icon{
@@ -67,24 +67,11 @@ li a:hover{
 }
 .papre{
     font-weight: bolder;
-    margin-top: 1vw;
-    width: 120px;
+    width: 190px;
+    font-size: 20px;
 
 }
-.linkedin{
-    background: #1b98e0;
-    border-radius: 5px;
-    text-decoration: none;
-    text-align: center;
-    padding: 15px;
-    color: rgb(5, 5, 131);
-    font-weight: bolder;
-    transition: .5s;
-}
-.linkedin:hover{
-    transition: .7s;
-    background: #ececec;
-}
+
 .habilidades{
     display: flex;
     flex-wrap: wrap;
